@@ -195,6 +195,7 @@ footer {
   }
 
   #header {
+    position: static;
     width: 640px;
   }
 
