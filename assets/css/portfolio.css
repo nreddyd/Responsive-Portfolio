@@ -1,0 +1,176 @@
+#portfoliocontainer {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 960px;
+  height: 500px;
+  clear: both;
+
+  margin: 0px auto;
+  border-left: 200px solid #dddddd;
+  border-top: 20px solid #dddddd;
+  border-right: 200px solid #dddddd;
+  border-bottom: 120px solid #dddddd;
+  /*margin-bottom: -60px;
+  /* margin-top: 2px solid #777777;*/
+}
+#img1,
+#img2,
+#img3,
+#img4,
+#img5 {
+  float: left;
+  height: 100px;
+  margin: 0 auto;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+#img3,
+#img5 {
+  clear: both;
+}
+
+#project1,
+#project2,
+#project3,
+#project4,
+#project5 {
+  position: relative;
+  top: 90px;
+  width: 200px;
+  margin: 0px auto;
+  background-color: #4aaaa5;
+  text-align: center;
+}
+
+#portfolio1,
+#portfolio2,
+#portfolio3,
+#portfolio4,
+#portfolio5 {
+  height: 100px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 980px) {
+  #portfoliocontainer {
+    width: 630px;
+    height: 650px;
+    border-left: 40px solid #dddddd;
+    border-right: 310px solid #dddddd;
+  }
+
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5 {
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #project1,
+  #project2,
+  #project3,
+  #project4,
+  #project5 {
+    position: relative;
+    top: 140px;
+    width: 250px;
+  }
+
+  #portfolio1,
+  #portfolio2,
+  #portfolio3,
+  #portfolio4,
+  #portfolio5 {
+    height: 150px;
+    width: 250px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #portfoliocontainer {
+    width: 680px;
+    height: 650px;
+    border-left: 40px solid #dddddd;
+    border-right: 50px solid #dddddd;
+  }
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5 {
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #project1,
+  #project2,
+  #project3,
+  #project4,
+  #project5 {
+    position: relative;
+    top: 140px;
+    width: 275px;
+    margin: 0px auto;
+    background-color: #4aaaa5;
+    text-align: center;
+  }
+
+  #portfolio1,
+  #portfolio2,
+  #portfolio3,
+  #portfolio4,
+  #portfolio5 {
+    height: 150px;
+    width: 275px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #portfoliocontainer {
+    width: 600px;
+    height: 1800px;
+    border-left: 20px solid #dddddd;
+    border-right: 20px solid #dddddd;
+  }
+  #img1,
+  #img2,
+  #img3,
+  #img4,
+  #img5 {
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #project1,
+  #project2,
+  #project3,
+  #project4,
+  #project5 {
+    position: relative;
+    top: 280px;
+    width: 520px;
+    margin: 0px auto;
+    background-color: #4aaaa5;
+    text-align: center;
+  }
+
+  #portfolio1,
+  #portfolio2,
+  #portfolio3,
+  #portfolio4,
+  #portfolio5 {
+    height: 300px;
+    width: 520px;
+    margin: 0 auto;
+  }
+}

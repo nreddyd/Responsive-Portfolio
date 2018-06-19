@@ -1,0 +1,74 @@
+button {
+  padding: 10px;
+  background-color: #4aaaa5;
+  width: 100px;
+  font-size: 18px;
+  color: white;
+}
+
+button:hover {
+  background-color: blue;
+}
+#contactcontainer {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 960px;
+  height: 500px;
+  clear: both;
+
+  margin: 0px auto;
+  border-left: 200px solid #dddddd;
+  border-top: 20px solid #dddddd;
+  border-right: 200px solid #dddddd;
+  border-bottom: 120px solid #dddddd;
+  /*margin-bottom: -60px;
+  /* margin-top: 2px solid #777777;*/
+}
+@media screen and (max-width: 980px) {
+  #contactcontainer {
+    width: 630px;
+    border-left: 40px solid #dddddd;
+    border-right: 310px solid #dddddd;
+  }
+
+  input {
+    width: 580px;
+  }
+
+  textarea {
+    width: 580px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contactcontainer {
+    width: 730px;
+    border-left: 19px solid #dddddd;
+    border-right: 19px solid #dddddd;
+  }
+
+  input {
+    width: 660px;
+  }
+
+  textarea {
+    width: 660px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #contactcontainer {
+    width: 600px;
+    border-left: 20px solid #dddddd;
+    border-right: 20px solid #dddddd;
+  }
+
+  input {
+    width: 550px;
+  }
+
+  textarea {
+    width: 550px;
+  }
+}
